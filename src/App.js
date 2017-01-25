@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import NavigationBar from './NavBar';
+import LandingHeader from './LandingHeader';
+import ProjectsSection from './ProjectsSection';
+import AboutMe from './AboutMe';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <NavigationBar />
+        <LandingHeader />
+        <div className="divider"></div>
+        <ProjectsSection />
+        <div className="divider"></div>
+        <AboutMe />
       </div>
     );
   }

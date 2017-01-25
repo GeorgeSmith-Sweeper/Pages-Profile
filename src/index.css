@@ -1,5 +1,247 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+ background-color: #000000;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #FFEB3B;
+}
+
+/* handles all styles in the navbar */
+/*****************************************************************/
+nav {
+  background-color: #000000;
+  font-family: 'Ubuntu', sans-serif;
+  list-style: none;
+  color: black;
+}
+nav .brand-logo {
+  padding-left: 15px;
+}
+
+/*****************************************************************/
+
+
+/* handles all styles in the landing section */
+/*****************************************************************/
+.landing {
+  display: flex;
+  background-color: #FFEB3B;
+  min-height: 500px;
+  color: #000000;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  justify-content: center;
+  align-items: center;
+  /* uncomment if using an image*/
+ /* background-size: cover;
+  background-repeat: no-repeat;*/
+}
+
+.landing h1 {
+  font-size: 70px;
+}
+
+.landing span {
+  font-size: 30px;
+}
+/*****************************************************************/
+
+
+/* handles all styles in the projects section */
+/*****************************************************************/
+.projects {
+  color: white;
+  background-color: #FFEB3B;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 2.1rem;
+}
+
+.projects span {
+  font-size: 20px;
+}
+
+.projects h1, h2 {
+  font-family: 'VT323', monospace;
+}
+
+.divider {
+  min-height: 30px;
+  background-color: #000000;
+}
+
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+/*****************************************************************/
+
+
+/* handles all styles in the about me section*/
+/*****************************************************************/
+.about-me {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #FFEB3B;
+  color: #000000;
+}
+
+.about-me p {
+  font-size: 17px;
+  text-align: left;
+}
+
+.about-me h3 {
+  font-family: 'VT323', monospace;
+  text-align: left;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+#head-shot {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/***********************************************************************/
+
+
+/* handles all styles in the social media icons */
+/*****************************************************************/
+.social {
+  text-align: left;
+  font-size: 3.0em;
+  overflow: hidden;
+}
+
+.social a {
+  text-decoration: none;
+  color: #555555;
+  overflow: hidden;
+}
+
+i {
+    margin: .5em;
+    transition: transform 1.5s ease-in-out;
+}
+
+#github:hover {
+  color: black;
+  transition: color 300ms ease;
+  transform: scale(1.5,1.5);
+}
+
+#linkedin:hover {
+  color: #0177B5;
+  transition: color 300ms ease;
+  transform: scale(1.5,1.5);
+}
+
+#angellist:hover {
+  color: #ED780E;
+  transition: color 300ms ease;
+  transform: scale(1.5,1.5);
+}
+
+#mail:hover {
+  color: #88D8B0;
+  transition: color 300ms ease;
+  transform: scale(1.5,1.5);
+}
+
+
+
+/*****************************************************************/
+@media (max-width: 1024px) {
+  #head-shot {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  #head-shot {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 596px) {
+  #head-shot {
+    margin: 5% 0 0 25%;
+  }
+  .social {
+    text-align: center;
+  }
+  .about-me h3 {
+    text-align: center;
+  }
+  .about-me p {
+    text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  #head-shot {
+    margin: 5% 0px 0px 12%;
+  }
+  .social {
+    text-align: center;
+  }
+  .about-me h3 {
+    text-align: center;
+  }
+  .about-me p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  #head-shot {
+    margin: 5% 0px 0px 8%;
+  }
+  .social {
+    text-align: center;
+  }
+  .about-me h3 {
+    text-align: center;
+  }
+  .about-me p {
+    text-align: center;
+  }
+
+  nav .brand-logo {
+    padding-left: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  #head-shot {
+    margin: 1% 0px 0px 1%;
+  }
+  .social {
+    text-align: center;
+  }
+  .about-me h3 {
+    text-align: center;
+  }
+  .about-me p {
+    text-align: center;
+  }
+
+  nav .brand-logo {
+    padding-left: 35px;
+  }
 }
