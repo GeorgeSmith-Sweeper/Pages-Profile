@@ -3,7 +3,6 @@ import NavigationBar from './NavBar';
 import LandingHeader from './LandingHeader';
 import ProjectsSection from './ProjectsSection';
 import AboutMe from './AboutMe';
-import './App.css';
 
 class App extends Component {
   render() {

@@ -8,7 +8,7 @@ class NavigationBar extends Component {
 
   render () {
     return (
-      <Navbar brand='George Smith-Sweeper' right>
+      <Navbar brand='George Smith-Sweeper' right fixed>
         <NavItem href="#projects">Projects</NavItem>
         <NavItem href="#ab-me">About Me</NavItem>
       </Navbar>
