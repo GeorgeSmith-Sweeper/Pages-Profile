@@ -2,6 +2,7 @@
   "name": "pages-profile",
   "version": "0.1.0",
   "private": true,
+
   "homepage": "https://georgesmith-sweeper.github.io/Pages-Profile/",
   "devDependencies": {
     "gh-pages": "^0.12.0",
