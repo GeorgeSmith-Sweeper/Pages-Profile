@@ -10,7 +10,7 @@ a:focus, a:hover {
 /* handles all styles in the navbar */
 /*****************************************************************/
 nav {
-  background-color: #39AEA9;
+  /*background-color: #39AEA9;*/
   font-family: 'Ubuntu', sans-serif;
   list-style: none;
   color: green;

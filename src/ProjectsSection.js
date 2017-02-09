@@ -19,6 +19,7 @@ class ProjectsSection extends Component {
                     <p>
                       <span>
                         A tool for giving teachers realtime feedback from students in the classroom.
+                        Deployed at: <a href="https://loop-teach.herokuapp.com">loop-teach.herokuapp.com</a>
                       </span>
                     </p>
                   </div>
