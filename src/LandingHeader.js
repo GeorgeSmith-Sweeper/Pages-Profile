@@ -9,11 +9,10 @@ class LandingHeader extends Component {
         <Row>
           <Col sm={12}>
             <div className="statement">
-              <h1>JAVASCRIPT DEVELOPER / VR ENTHUSIAST</h1>
+              <h1>JAVASCRIPT DEVELOPER</h1>
               <p>
                 <span>
-                Hey, I'm George. I enjoy creating gorgeous applications,
-                and making objects in virtual reality.
+                Hi, I'm George. I enjoy building gorgeous, interactive, and responsive websites, using Vanilla JS, combined with the lastest frameworks.
                 </span>
               </p>
             </div>
