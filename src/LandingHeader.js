@@ -18,9 +18,3 @@ class LandingHeader extends Component {
 }
 
 export default LandingHeader;
-              /*<h1>JAVASCRIPT DEVELOPER</h1>
-              <p>
-                <span>
-                Hi, I'm George. I enjoy building gorgeous, interactive, and responsive websites, using Vanilla JS, combined with the lastest frameworks.
-                </span>
-              </p>*/

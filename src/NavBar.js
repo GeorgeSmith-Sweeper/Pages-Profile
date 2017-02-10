@@ -11,6 +11,7 @@ class NavigationBar extends Component {
       <Navbar brand='George Smith-Sweeper' right>
         <NavItem href="#projects">Projects</NavItem>
         <NavItem href="#ab-me">About Me</NavItem>
+        <NavItem href="#contact">Contact Me</NavItem>
       </Navbar>
     );
   }

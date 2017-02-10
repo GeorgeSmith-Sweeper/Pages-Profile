@@ -3,6 +3,7 @@ import NavigationBar from './NavBar';
 import LandingHeader from './LandingHeader';
 import ProjectsSection from './ProjectsSection';
 import AboutMe from './AboutMe';
+import ContactInfo from './ContactInfo';
 
 class App extends Component {
   render() {
@@ -12,7 +13,9 @@ class App extends Component {
         <LandingHeader />
         <div className="divider"></div>
         <AboutMe />
+        <div className="divider"></div>
         <ProjectsSection />
+        <ContactInfo />
       </div>
     );
   }

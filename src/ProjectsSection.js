@@ -61,7 +61,7 @@ class ProjectsSection extends Component {
                     </div>
                     <p>
                       <span>
-                      A basic receipe site, using Yummlys Api to match search querys with ingredients.
+                      A basic receipe site, using Yummlys API to match search querys with ingredients.
                       </span>
                     </p>
                   </div>
