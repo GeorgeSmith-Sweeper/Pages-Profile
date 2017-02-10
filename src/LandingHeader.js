@@ -5,7 +5,7 @@ class LandingHeader extends Component {
 
   render () {
     return (
-      <div className="container-fluid landing">
+      <div className="landing">
         <Row>
           <Col sm={12}>
             <div className="statement">

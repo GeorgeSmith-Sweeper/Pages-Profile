@@ -35,13 +35,13 @@ nav ul a {
   min-height: 800px;
   color: #000000;
   text-align: center;
-  font-family: 'VT323', monospace;
+  font-family: 'Ubuntu', sans-serif;
   justify-content: center;
   align-items: center;
   /* uncomment if using an image*/
   background-image: url('../public/city.jpeg');
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
 }
 
 .landing h1 {
@@ -67,7 +67,7 @@ nav ul a {
 }
 
 .projects h1, h2 {
-  font-family: 'VT323', monospace;
+  font-family: 'Ubuntu', sans-serif;
   text-align: left;
 }
 
@@ -102,10 +102,14 @@ nav ul a {
 }
 
 .about-me h3 {
-  font-family: 'VT323', monospace;
+  font-family: 'Ubuntu', sans-serif;
   text-align: left;
 }
 
+.divider {
+  min-height: 30px;
+  background: transparent;
+}
 .no-bottom-margin {
   margin-bottom: 0;
 }

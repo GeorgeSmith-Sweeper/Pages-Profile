@@ -10,8 +10,9 @@ class App extends Component {
       <div>
         <NavigationBar />
         <LandingHeader />
-        <ProjectsSection />
+        <div className="divider"></div>
         <AboutMe />
+        <ProjectsSection />
       </div>
     );
   }
