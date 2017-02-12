@@ -72,7 +72,7 @@ nav i {
 
 .projects h1, h2 {
   font-family: 'Ubuntu', sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 .video-container {
@@ -93,7 +93,7 @@ nav i {
 
 .description {
   /*background: red;*/
-  text-align: center;
+  text-align: left;
 }
 
 .media {
