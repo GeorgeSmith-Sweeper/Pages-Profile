@@ -24,7 +24,7 @@ class ProjectsSection extends Component {
                   </p>
                   <p>
                     <span>
-                        Loop is deployed at: <a href="https://loop-teach.herokuapp.com">loop-teach.herokuapp.com</a>
+                        Loop is deployed <a href="https://loop-teach.herokuapp.com" className="project-links">here</a>
                     </span>
                   </p>
                 </div>
@@ -83,7 +83,7 @@ class ProjectsSection extends Component {
                   </p>
                   <p>
                     <span>
-                      If you enjoyed this talk, more information can be found <a href="https://tails.boum.org/">here</a>
+                      If you enjoyed this talk, more information can be found <a href="https://tails.boum.org/" className="project-links">here</a>
                     </span>
                   </p>
                 </div>
@@ -101,7 +101,22 @@ class ProjectsSection extends Component {
                   <h3>Home Cooked</h3>
                   <p>
                     <span>
-                    A brief talk about remaining anonymous online using TAIL, and the TOR network.
+                    Ever have touble making something to eat with the ingredients you have in the fridge? I did too, so I made this site to help me out.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                     Home Cooked allows you to enter ingredients into a search bar and only get back recipies that contain those components.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                     Although this was one of my earlist creations, I still find it to be one of my favorites. Who knew dinner could be solved with software.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                     I built this project using Yummly's API, Vanilla JS, and a dash of Bootstrap for the Jumbotron. It can be viewed <a href="http://fridge-project.surge.sh/" className="project-links">here</a>
                     </span>
                   </p>
                 </div>
