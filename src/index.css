@@ -141,7 +141,7 @@ nav i {
 /* handles all styles in the social media icons */
 /*****************************************************************/
 .social {
-  text-align: left;
+  /*text-align: left;*/
   font-size: 3.0em;
   overflow: hidden;
 }
@@ -150,6 +150,8 @@ nav i {
   text-decoration: none;
   color: #555555;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 i {

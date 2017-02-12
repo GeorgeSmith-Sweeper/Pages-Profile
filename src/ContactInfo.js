@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Row, Col } from 'react-bootstrap';
+
 
 class ContactInfo extends Component {
 
@@ -6,17 +8,22 @@ class ContactInfo extends Component {
     return (
        <div className="contact-info">
         <a name="contact"></a>
-        <div className="row no-bottom-margin">
-          <div className="col s12 m12 l12">
-            <div className="social">
+        <Row className="social">
+          <Col xs={3} sm={3} md={3} lg={3}>
               <a href="https://github.com/GeorgeSmith-Sweeper"><i id="github" className="fa fa-github-square" aria-hidden="true"> </i></a>
+          </Col>
+          <Col xs={3} sm={3} md={3} lg={3}>
               <a href="https://www.linkedin.com/in/george-smith-sweeper-087b753a
 "><i id="linkedin" className="fa fa-linkedin" aria-hidden="true"> </i></a>
+          </Col>
+          <Col xs={3} sm={3} md={3} lg={3}>
               <a href="https://angel.co/george-smith-sweeper"><i id="angellist" className="fa fa-angellist" aria-hidden="true"> </i></a>
+          </Col>
+          <Col xs={3} sm={3} md={3} lg={3}>
               <a href="mailto:george.smsweeper@gmail.com"><i id="mail" className="fa fa-envelope" aria-hidden="true"> </i></a>
-            </div>
-          </div>
-        </div>
+          </Col>
+
+        </Row>
       </div>
     );
   }
