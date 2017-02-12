@@ -72,7 +72,18 @@ class ProjectsSection extends Component {
                   <h3>Tails</h3>
                   <p>
                     <span>
-                    A brief talk about remaining anonymous online using TAIL, and the TOR network.
+                      Given the revelations about the NSA massive survelience opperations, and the ever present data collection done by advertisers, I thought it would be appropriate to give
+                      a brief talk about remaining anonymous online.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      This talk covers the Tails OS, and skims the surface of how the TOR network handles communications, and uses public and private keys to encrypt information.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      If you enjoyed this talk, more information can be found <a href="https://tails.boum.org/">here</a>
                     </span>
                   </p>
                 </div>
