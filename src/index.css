@@ -27,9 +27,7 @@ nav ul a {
 nav i {
   color: #000000
 }
-nav i:hover {
 
-}
 /*****************************************************************/
 
 
@@ -51,11 +49,11 @@ nav i:hover {
 }
 
 .landing h1 {
-  font-size: 70px;
+  /*font-size: 70px;*/
 }
 
 .landing span {
-  font-size: 30px;
+  /*font-size: 30px;*/
 }
 /*****************************************************************/
 
@@ -74,7 +72,7 @@ nav i:hover {
 
 .projects h1, h2 {
   font-family: 'Ubuntu', sans-serif;
-  text-align: left;
+  text-align: center;
 }
 
 .video-container {
@@ -91,6 +89,16 @@ nav i:hover {
   left:0;
   width:100%;
   height:100%;
+}
+
+.description {
+  /*background: red;*/
+  text-align: center;
+}
+
+.media {
+  /*background: blue;*/
+  margin-top: 0;
 }
 /*****************************************************************/
 
@@ -143,8 +151,8 @@ nav i:hover {
 }
 
 i {
-    margin: .5em;
-    transition: transform 1.5s ease-in-out;
+  margin: .5em;
+  transition: transform 1.5s ease-in-out;
 }
 
 #github:hover {
