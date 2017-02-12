@@ -9,9 +9,9 @@ class ProjectsSection extends Component {
           <div className="projects">
           <a name="projects"></a>
             <Row>
-              <Col xs={12} sm={12} md={5} lg={5} className="description">
+              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
-                  <h2>Loop</h2>
+                  <h3>Loop</h3>
                   <p>
                     <span>
                       Loop is a communication tool that allows teachers to check for understanding while class is in session.
@@ -37,16 +37,62 @@ class ProjectsSection extends Component {
                 </div>
               </Col>
             </Row>
+             {/* Next Project */}
             <Row>
-              <Col xs={12} sm={12} md={7} lg={7} className="description">
+              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
-                  <h1>video</h1>
+                  <h3>Cube Master</h3>
+                    <p>
+                      <span>
+                      Unitys "Roll A Ball" tutorial remade in Virtual Reality.
+                      </span>
+                    </p>
                 </div>
               </Col>
-              <Col xs={12} sm={12} md={5} lg={5} className="media">
+              <Col xs={12} sm={12} md={7} lg={7} className="media">
                 <div>
-                  <h1>description</h1>
+                  <div className="video-container">
+                    <iframe width="500" height="281" src="https://www.youtube.com/embed/PNkrEoNgo-A" frameBorder="0" allowFullScreen></iframe>
+                  </div>
                 </div>
+              </Col>
+            </Row>
+            {/* Next Project */}
+            <Row>
+              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
+                <div>
+                  <h3>Tails</h3>
+                    <p>
+                      <span>
+                      A brief talk about remaining anonymous online using TAIL, and the TOR network.
+                      </span>
+                    </p>
+                </div>
+              </Col>
+              <Col xs={12} sm={12} md={7} lg={7} className="media">
+                  <div className="video-container">
+                    <iframe width="500" height="281" src="https://www.youtube.com/embed/A-LKDSz4Ik4" frameBorder="0" allowFullScreen></iframe>
+                  </div>
+              </Col>
+            </Row>
+            {/* Next Project */}
+            <Row>
+              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
+                <div>
+                  <h3>Home Cooked</h3>
+                    <p>
+                      <span>
+                      A brief talk about remaining anonymous online using TAIL, and the TOR network.
+                      </span>
+                    </p>
+                </div>
+              </Col>
+              <Col xs={12} sm={12} md={7} lg={7} className="media">
+
+                  <div className="video-container">
+                      <iframe width="500" height="281" src="https://www.youtube.com/embed/aQAHGaJZjM8?list=PLx0iOsdUOUmk4F-mEQuJsLn41qXF5alF9" frameBorder="0" allowFullScreen></iframe>
+                  </div>
+
               </Col>
             </Row>
           </div>

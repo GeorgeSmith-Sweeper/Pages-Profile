@@ -91,13 +91,19 @@ nav i {
   height:100%;
 }
 
-.description {
-  /*background: red;*/
+.text-align-left {
   text-align: left;
 }
 
+.text-align-right {
+  text-align: right;
+}
+
+.description {
+
+}
+
 .media {
-  /*background: blue;*/
   margin-top: 0;
 }
 /*****************************************************************/
