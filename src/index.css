@@ -4,7 +4,7 @@ body {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #FFEB3B;
+  color: #000000;
 }
 
 /* handles all styles in the navbar */
@@ -24,6 +24,12 @@ nav ul a {
   color: #000000;
 }
 
+nav i {
+  color: #000000
+}
+nav i:hover {
+
+}
 /*****************************************************************/
 
 
@@ -41,7 +47,7 @@ nav ul a {
   /* uncomment if using an image*/
   background-image: url('../public/city.jpeg');
   background-size: cover;
-  /*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 }
 
 .landing h1 {
@@ -184,7 +190,7 @@ i {
 
 @media (max-width: 596px) {
   #head-shot {
-    margin: 5% 0 0 25%;
+    margin: 5% 0 0 12%;
   }
   .social {
     text-align: center;
