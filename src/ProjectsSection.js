@@ -42,8 +42,18 @@ class ProjectsSection extends Component {
                   <h3>Cube Master</h3>
                   <p>
                     <span>
-                    Unitys "Roll A Ball" tutorial remade in Virtual Reality.
+                    Cube master is the result of a short creative hackathon. I chose to remake Unitys "Roll A Ball" tutorial, while enchancing it to run on Samsungs Gear VR headset.
                     </span>
+                  </p>
+                  <p>
+                    <span>
+                    During the hackathon, I had to retrain myself to develop in three dimesions, and account for depth along with height and width.
+                    </span>
+                  </p>
+                  <p>
+                  <span>
+                    Unitys game engine is incredibly powerful, and was a pleasure to work with.
+                  </span>
                   </p>
                 </div>
               </Col>
