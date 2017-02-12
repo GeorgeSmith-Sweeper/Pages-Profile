@@ -30,10 +30,8 @@ class ProjectsSection extends Component {
                 </div>
               </Col>
               <Col xs={12} sm={12} md={7} lg={7} className="media">
-                <div>
-                  <div className="video-container">
-                    <iframe width="500" height="281" src="https://www.youtube.com/embed/3pzsP2I7e3U" frameBorder="0" allowFullScreen></iframe>
-                  </div>
+                <div className="video-container">
+                  <iframe width="500" height="281" src="https://www.youtube.com/embed/3pzsP2I7e3U" frameBorder="0" allowFullScreen></iframe>
                 </div>
               </Col>
             </Row>
@@ -42,11 +40,11 @@ class ProjectsSection extends Component {
               <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
                   <h3>Cube Master</h3>
-                    <p>
-                      <span>
-                      Unitys "Roll A Ball" tutorial remade in Virtual Reality.
-                      </span>
-                    </p>
+                  <p>
+                    <span>
+                    Unitys "Roll A Ball" tutorial remade in Virtual Reality.
+                    </span>
+                  </p>
                 </div>
               </Col>
               <Col xs={12} sm={12} md={7} lg={7} className="media">
@@ -62,17 +60,17 @@ class ProjectsSection extends Component {
               <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
                   <h3>Tails</h3>
-                    <p>
-                      <span>
-                      A brief talk about remaining anonymous online using TAIL, and the TOR network.
-                      </span>
-                    </p>
+                  <p>
+                    <span>
+                    A brief talk about remaining anonymous online using TAIL, and the TOR network.
+                    </span>
+                  </p>
                 </div>
               </Col>
               <Col xs={12} sm={12} md={7} lg={7} className="media">
-                  <div className="video-container">
-                    <iframe width="500" height="281" src="https://www.youtube.com/embed/A-LKDSz4Ik4" frameBorder="0" allowFullScreen></iframe>
-                  </div>
+                <div className="video-container">
+                  <iframe width="500" height="281" src="https://www.youtube.com/embed/A-LKDSz4Ik4" frameBorder="0" allowFullScreen></iframe>
+                </div>
               </Col>
             </Row>
             {/* Next Project */}
@@ -80,19 +78,17 @@ class ProjectsSection extends Component {
               <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
                   <h3>Home Cooked</h3>
-                    <p>
-                      <span>
-                      A brief talk about remaining anonymous online using TAIL, and the TOR network.
-                      </span>
-                    </p>
+                  <p>
+                    <span>
+                    A brief talk about remaining anonymous online using TAIL, and the TOR network.
+                    </span>
+                  </p>
                 </div>
               </Col>
               <Col xs={12} sm={12} md={7} lg={7} className="media">
-
-                  <div className="video-container">
-                      <iframe width="500" height="281" src="https://www.youtube.com/embed/aQAHGaJZjM8?list=PLx0iOsdUOUmk4F-mEQuJsLn41qXF5alF9" frameBorder="0" allowFullScreen></iframe>
-                  </div>
-
+                <div className="video-container">
+                  <iframe width="500" height="281" src="https://www.youtube.com/embed/aQAHGaJZjM8?list=PLx0iOsdUOUmk4F-mEQuJsLn41qXF5alF9" frameBorder="0" allowFullScreen></iframe>
+                </div>
               </Col>
             </Row>
           </div>
