@@ -24,7 +24,7 @@ class ProjectsSection extends Component {
                   </p>
                   <p>
                     <span>
-                        Loop is deployed <a href="https://loop-teach.herokuapp.com" className="project-links">here</a>
+                        Loop is deployed <a href="https://loop-teach.herokuapp.com" className="project-links">here</a>.
                     </span>
                   </p>
                 </div>
@@ -83,7 +83,7 @@ class ProjectsSection extends Component {
                   </p>
                   <p>
                     <span>
-                      If you enjoyed this talk, more information can be found <a href="https://tails.boum.org/" className="project-links">here</a>
+                      If you enjoyed this talk, more information can be found <a href="https://tails.boum.org/" className="project-links">here</a>.
                     </span>
                   </p>
                 </div>
@@ -116,7 +116,7 @@ class ProjectsSection extends Component {
                   </p>
                   <p>
                     <span>
-                     I built this project using Yummly's API, Vanilla JS, and a dash of Bootstrap for the Jumbotron. It can be viewed <a href="http://fridge-project.surge.sh/" className="project-links">here</a>
+                     I built this project using Yummly's API, Vanilla JS, and a dash of Bootstrap for the Jumbotron. It can be viewed <a href="http://fridge-project.surge.sh/" className="project-links">here</a>.
                     </span>
                   </p>
                 </div>
