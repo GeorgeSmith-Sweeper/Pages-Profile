@@ -43,7 +43,7 @@ nav i {
   justify-content: center;
   align-items: center;
   /* uncomment if using an image*/
-  background-image: url('../public/city.jpeg');
+  background-image: url('../public/CityShot.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -60,6 +60,25 @@ nav i {
 
 /* handles all styles in the projects section */
 /*****************************************************************/
+
+/*.description {
+  background: #1A2930;
+}
+
+.media {
+  background: #F7CE3E
+}*/
+
+/*.oddRow {
+  background: #c5c1c0;
+  color: #000000;
+}
+
+.evenRow {
+  background: #555555;
+  color: #FFFFFF;
+}*/
+
 .projects {
   text-align: center;
   color: #000000;
