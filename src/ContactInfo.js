@@ -8,7 +8,7 @@ class ContactInfo extends Component {
     return (
        <div className="contact-info">
         <a name="contact"></a>
-        <Row className="social">
+        <Row className="social no-bottom-margin">
           <Col xs={3} sm={3} md={3} lg={3}>
               <a href="https://github.com/GeorgeSmith-Sweeper"><i id="github" className="fa fa-github-square" aria-hidden="true"> </i></a>
           </Col>

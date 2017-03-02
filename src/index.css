@@ -1,16 +1,16 @@
 body {
-  background-color: #45484c;
+  background-color: #838181;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #838181;
 }
 
 /* handles all styles in the navbar */
 /*****************************************************************/
 nav {
-  background: transparent;
+  background: #000000;
   font-family: 'Ubuntu', sans-serif;
   list-style: none;
   border: none;
@@ -60,24 +60,6 @@ nav i {
 
 /* handles all styles in the projects section */
 /*****************************************************************/
-
-/*.description {
-  background: #1A2930;
-}
-
-.media {
-  background: #F7CE3E
-}*/
-
-/*.oddRow {
-  background: #c5c1c0;
-  color: #FFFFFF;
-}
-
-.evenRow {
-  background: #555555;
-  color: #FFFFFF;
-}*/
 
 .projects {
   text-align: center;
@@ -163,6 +145,7 @@ nav i {
   /*text-align: left;*/
   font-size: 3.0em;
   overflow: hidden;
+  background-color: #000000;
 }
 
 .social a {
