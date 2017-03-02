@@ -6,8 +6,40 @@ class ProjectsSection extends Component {
 
   render () {
     return (
-          <div className="projects">
+        <div className="projects">
           <a name="projects"></a>
+            <Row className="projectsRows">
+              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
+                <div>
+                  <h3>Color Stream</h3>
+                  <p>
+                    <span>
+                      Color Stream uses JavaScript and CSS to generate vibrant gradient backgrounds. Each background is completely unique, and can be used as a great banner for your website or project.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Backgrounds can be recreated by clicking the "Reveal" button to display the exact CSS properties used to create the current gradient.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      If you like this project, be sure to click the star button located on the page!
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                        Color Stream is deployed <a href="www.colorstream.co" className="project-links">here</a>.
+                    </span>
+                  </p>
+                </div>
+              </Col>
+              <Col xs={12} sm={12} md={7} lg={7} className="media">
+                <div className="video-container">
+                  <iframe width="500" height="281" src="https://www.youtube.com/embed/3pzsP2I7e3U" frameBorder="0" allowFullScreen></iframe>
+                </div>
+              </Col>
+            </Row>
             <Row className="projectsRows">
               <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
