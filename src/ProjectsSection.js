@@ -8,7 +8,7 @@ class ProjectsSection extends Component {
     return (
           <div className="projects">
           <a name="projects"></a>
-            <Row className="oddRow">
+            <Row className="projectsRows">
               <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
                   <h3>Loop</h3>
@@ -36,7 +36,7 @@ class ProjectsSection extends Component {
               </Col>
             </Row>
              {/* Next Project */}
-            <Row className="evenRow">
+            <Row className="projectsRows">
               <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
                   <h3>Cube Master</h3>
@@ -66,7 +66,7 @@ class ProjectsSection extends Component {
               </Col>
             </Row>
             {/* Next Project */}
-            <Row className="oddRow">
+            <Row className="projectsRows">
               <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
                   <h3>Tails</h3>
@@ -95,7 +95,7 @@ class ProjectsSection extends Component {
               </Col>
             </Row>
             {/* Next Project */}
-            <Row className="evenRow">
+            <Row className="projectsRows">
               <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
                   <h3>Home Cooked</h3>

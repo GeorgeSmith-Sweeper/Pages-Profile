@@ -1,5 +1,5 @@
 body {
-  background-color: #cccccc;
+  background-color: #FFFFFF;
 }
 
 a:focus, a:hover {
@@ -10,8 +10,8 @@ a:focus, a:hover {
 /* handles all styles in the navbar */
 /*****************************************************************/
 nav {
-  background: #000000;
-  font-family: 'Ubuntu', sans-serif;
+  background: #666666;
+  font-family: 'Lobster', cursive;
   list-style: none;
   border: none;
 }
@@ -37,24 +37,16 @@ nav i {
   display: flex;
   /*background-color: #5B5151;*/
   min-height: 800px;
-  color: #000000;
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
   justify-content: center;
   align-items: center;
+
   /* uncomment if using an image*/
   background-image: url('../public/CityShot.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.landing h1 {
-  /*font-size: 70px;*/
-}
-
-.landing span {
-  /*font-size: 30px;*/
-}
 /*****************************************************************/
 
 
@@ -67,12 +59,18 @@ nav i {
   padding-bottom: 50px;
 }
 
+.projects .row {
+  padding-bottom: 30px;
+}
+
 .projects span {
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
 
-.projects h1, h2 {
-  font-family: 'Ubuntu', sans-serif;
+.projects h3 {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
   text-align: left;
 }
 
@@ -109,17 +107,19 @@ nav i {
 /* handles all styles in the about me section*/
 /*****************************************************************/
 .about-me {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #000000;
 }
 
 .about-me p {
   font-size: 17px;
   text-align: left;
+  font-family: 'Raleway', sans-serif;
 }
 
 .about-me h3 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
   text-align: left;
 }
 
@@ -145,7 +145,7 @@ nav i {
   /*text-align: left;*/
   font-size: 3.0em;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #666666;
 }
 
 .social a {
@@ -186,7 +186,7 @@ i {
 }
 
 
-
+/* Media Queries*/
 /*****************************************************************/
 @media (max-width: 1024px) {
   #head-shot {
