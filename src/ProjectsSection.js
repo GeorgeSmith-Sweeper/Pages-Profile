@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
+import Colorstream from '../public/Colorstream.png';
 
 
 class ProjectsSection extends Component {
@@ -29,14 +30,14 @@ class ProjectsSection extends Component {
                   </p>
                   <p>
                     <span>
-                        Color Stream is deployed <a href="www.colorstream.co" className="project-links">here</a>.
+                        Color Stream is deployed <a href="http://colorstream.co" className="project-links">here</a>.
                     </span>
                   </p>
                 </div>
               </Col>
               <Col xs={12} sm={12} md={7} lg={7} className="media">
                 <div className="video-container">
-                  <iframe width="500" height="281" src="https://www.youtube.com/embed/3pzsP2I7e3U" frameBorder="0" allowFullScreen></iframe>
+                  <Image alt="colorstream's homepage" src={Colorstream} responsive/>
                 </div>
               </Col>
             </Row>
