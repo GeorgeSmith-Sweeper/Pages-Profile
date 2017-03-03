@@ -9,7 +9,7 @@ class ProjectsSection extends Component {
     return (
         <div className="projects">
           <a name="projects"></a>
-            <Row className="projectsRows">
+            <Row className="no-bottom-margin">
               <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
                 <div>
                   <h3>Color Stream</h3>
