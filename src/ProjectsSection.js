@@ -144,12 +144,17 @@ class ProjectsSection extends Component {
                   </p>
                   <p>
                     <span>
-                     Although this was one of my earlist creations, I still find it to be one of my favorites. Who knew dinner could be solved with software.
+                      Who knew dinner could be solved with software.
                     </span>
                   </p>
                   <p>
                     <span>
-                     I built this project using Yummly's API, Vanilla JS, and a dash of Bootstrap for the Jumbotron. It can be viewed <a href="http://fridge-project.surge.sh/" className="project-links">here</a>.
+                     I built this project using Yummly's API, Vanilla JS, and a dash of Bootstrap for the Jumbotron.
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                     Home Cooked is deployed <a href="http://fridge-project.surge.sh/" className="project-links">here</a>.
                     </span>
                   </p>
                 </div>
