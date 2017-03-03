@@ -10,8 +10,8 @@ class ProjectsSection extends Component {
         <div className="projects">
           <a name="projects"></a>
             <Row className="no-bottom-margin">
-              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
-                <div>
+              <Col xs={12} sm={12} md={5} lg={5} className="text-align-left">
+                <div className="description">
                   <h3>Color Stream</h3>
                   <p>
                     <span>
@@ -42,8 +42,8 @@ class ProjectsSection extends Component {
               </Col>
             </Row>
             <Row className="projectsRows">
-              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
-                <div>
+              <Col xs={12} sm={12} md={5} lg={5} className="text-align-left">
+                <div className="description">
                   <h3>Loop</h3>
                   <p>
                     <span>
@@ -70,8 +70,8 @@ class ProjectsSection extends Component {
             </Row>
              {/* Next Project */}
             <Row className="projectsRows">
-              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
-                <div>
+              <Col xs={12} sm={12} md={5} lg={5} className="text-align-left">
+                <div className="description">
                   <h3>Cube Master</h3>
                   <p>
                     <span>
@@ -100,8 +100,8 @@ class ProjectsSection extends Component {
             </Row>
             {/* Next Project */}
             <Row className="projectsRows">
-              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
-                <div>
+              <Col xs={12} sm={12} md={5} lg={5} className="text-align-left">
+                <div className="description">
                   <h3>Tails</h3>
                   <p>
                     <span>
@@ -129,8 +129,8 @@ class ProjectsSection extends Component {
             </Row>
             {/* Next Project */}
             <Row className="projectsRows">
-              <Col xs={12} sm={12} md={5} lg={5} className="description text-align-left">
-                <div>
+              <Col xs={12} sm={12} md={5} lg={5} className="text-align-left">
+                <div className="description">
                   <h3>Home Cooked</h3>
                   <p>
                     <span>
