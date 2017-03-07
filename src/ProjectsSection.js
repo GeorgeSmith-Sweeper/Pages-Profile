@@ -139,7 +139,7 @@ class ProjectsSection extends Component {
                   </p>
                   <p>
                     <span>
-                     Home Cooked allows you to enter ingredients into a search bar and only get back recipies that contain those components.
+                     Home Cooked allows you to enter ingredients into a search bar and only get back recipes that contain those components.
                     </span>
                   </p>
                   <p>
