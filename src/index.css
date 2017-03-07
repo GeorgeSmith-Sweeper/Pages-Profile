@@ -186,9 +186,13 @@ i {
   transform: scale(1.5,1.5);
 }
 
-.contact-info h4 {
+/*.contact-info {
+  padding-top: 20px;
+}*/
+.contact-info h5 {
   text-align: center;
   font-family: 'Lobster', cursive;
+  color: #FFFFFF;
 }
 /* Media Queries*/
 /*****************************************************************/
