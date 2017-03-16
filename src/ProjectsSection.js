@@ -105,7 +105,7 @@ class ProjectsSection extends Component {
                   <h3>Tails</h3>
                   <p>
                     <span>
-                      Given the revelations about the NSA massive survelience opperations, and the ever present data collection done by advertisers, I thought it would be appropriate to give
+                      Given the revelations about the NSA’s massive surveillance operations, and large scale data collection done by advertisers, I thought it would be appropriate to give
                       a brief talk about remaining anonymous online.
                     </span>
                   </p>
@@ -134,7 +134,7 @@ class ProjectsSection extends Component {
                   <h3>Home Cooked</h3>
                   <p>
                     <span>
-                    Ever have touble making something to eat with the ingredients you have in the fridge? I did too, so I made this site to help me out.
+                    Ever have trouble making something to eat with the ingredients you have in the fridge? I did too, so I made this site to help me create delicious meals.
                     </span>
                   </p>
                   <p>
