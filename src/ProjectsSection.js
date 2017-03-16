@@ -52,7 +52,7 @@ class ProjectsSection extends Component {
                   </p>
                   <p>
                     <span>
-                      Loop provides teachers with feedback from students in realtime, using Sockets.io, React to quickly handle the state of mutiple students, and D3, to visualise classroom mood.
+                      Loop provides teachers with feedback from students in realtime, using sockets.io and React to quickly handle the state of multiple students, and D3, to visualize classroom mood.
                     </span>
                   </p>
                   <p>
