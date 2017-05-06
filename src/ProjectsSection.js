@@ -15,9 +15,7 @@ class ProjectsSection extends Component {
             <Loop />
             <HomeCooked />
             <CubeMaster />
-             {/* Next Project */}
 
-            {/* Next Project */}
             <Row className="projectsRows">
               <Col xs={12} sm={12} md={5} lg={5} className="text-align-left">
                 <div className="description">
