@@ -10,7 +10,7 @@ class AboutMe extends Component {
         <a name="ab-me"></a>
         <div className="row">
           <div className="col s12 m4 l4">
-            <Image src={headShot} alt="head shot" id="head-shot"  responsive circle />
+            <Image src={headShot} alt="A photo of George-Smith-Sweeper" id="head-shot" responsive circle />
           </div>
           <div className="col s12 m8 l8">
             <h2>Hi, I'm George</h2>
