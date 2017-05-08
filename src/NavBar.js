@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem } from 'react-materialize';
 
-/* uncomment to use react-bootstrap*/
-//import { Navbar, MenuItem, Nav, NavItem, NavDropdown } from 'react-bootstrap';
-
 class NavigationBar extends Component {
 
   render () {
