@@ -39,7 +39,7 @@ class HomeCooked extends Component {
         </Col>
         <Col xs={12} sm={12} md={7} lg={7} className="media">
           <div className="video-container">
-            <iframe width="500" height="281" src="https://www.youtube.com/embed/aQAHGaJZjM8?list=PLx0iOsdUOUmk4F-mEQuJsLn41qXF5alF9" frameBorder="0" allowFullScreen></iframe>
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/aQAHGaJZjM8?list=PLx0iOsdUOUmk4F-mEQuJsLn41qXF5alF9" frameBorder="0" alt="Video presentation of Home Cooked"allowFullScreen></iframe>
           </div>
         </Col>
       </Row>
