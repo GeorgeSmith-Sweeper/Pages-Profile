@@ -191,18 +191,6 @@ i {
 }
 /* Media Queries*/
 /*****************************************************************/
-/*
-@media (max-width: 1290px) {
-  #head-shot {
-    margin: 4vw 0 0 6.5vw;
-  }
-  .about-me p {
-    font-size: 28px;
-  }
-  .projects span {
-    font-size: 28px;
-  }
-}*/
 
 @media (min-width: 1290px) {
   #head-shot {
