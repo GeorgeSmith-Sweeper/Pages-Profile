@@ -3,7 +3,6 @@ import { Row, Col, Image } from 'react-bootstrap';
 import Colorstream from '../../public/Colorstream.png';
 
 class ColorStream extends Component {
-
   render () {
     return (
       <Row className="no-bottom-margin">

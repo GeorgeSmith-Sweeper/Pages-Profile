@@ -3,7 +3,6 @@ import headShot from '../public/rsz_headshot.jpg';
 import { Image } from 'react-bootstrap';
 
 class AboutMe extends Component {
-
   render () {
     return (
        <div className="about-me">

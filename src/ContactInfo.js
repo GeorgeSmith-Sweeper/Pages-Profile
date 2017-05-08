@@ -3,7 +3,6 @@ import { Row, Col } from 'react-bootstrap';
 
 
 class ContactInfo extends Component {
-
   render () {
     return (
        <div className="contact-info">

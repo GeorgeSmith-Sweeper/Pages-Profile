@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 class LandingHeader extends Component {
-
   render () {
     return (
       <div className="landing">

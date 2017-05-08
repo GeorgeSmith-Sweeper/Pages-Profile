@@ -3,7 +3,6 @@ import { Row, Col } from 'react-bootstrap';
 
 
 class Loop extends Component {
-
   render () {
     return (
       <Row className="projectsRows">
