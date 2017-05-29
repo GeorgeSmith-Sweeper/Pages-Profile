@@ -33,7 +33,9 @@ class ColorStream extends Component {
         </Col>
         <Col xs={12} sm={12} md={7} lg={7} className="media">
           <div className="video-container">
-            <Image alt="colorstream's homepage" src={Colorstream} responsive/>
+          <a href="http://colorstream.co">
+            <Image alt="colorstream's homepage" src={Colorstream} responsive />
+          </a>
           </div>
         </Col>
       </Row>
