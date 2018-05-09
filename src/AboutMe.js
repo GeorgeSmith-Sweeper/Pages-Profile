@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import headShot from '../public/rsz_headshot.d9eb27a5.jpg';
+import headShot from './resources/headshot.jpg';
 import { Image } from 'react-bootstrap';
 
 class AboutMe extends Component {
