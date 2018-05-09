@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
-import Colorstream from '../../public/Colorstream.png';
+import Colorstream from '../resources/Colorstream.png';
 
 class ColorStream extends Component {
   render () {
