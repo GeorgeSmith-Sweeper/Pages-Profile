@@ -29,7 +29,12 @@ class Tails extends Component {
         </Col>
         <Col xs={12} sm={12} md={7} lg={7} className="media">
           <div className="video-container">
-            <iframe width="500" height="281" src="https://www.youtube.com/embed/A-LKDSz4Ik4" frameBorder="0" alt="A presentation about web security" allowFullScreen></iframe>
+            <iframe
+              width="500"
+              height="281"
+              src="https://www.youtube.com/embed/A-LKDSz4Ik4"
+              title="Tails Video"
+              frameBorder="0" alt="A presentation about web security" allowFullScreen></iframe>
           </div>
         </Col>
       </Row>

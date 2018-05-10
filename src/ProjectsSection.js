@@ -9,8 +9,8 @@ class ProjectsSection extends Component {
 
   render () {
     return (
-        <div className="projects">
-          <a name="projects"></a>
+      <div className="projects">
+          <a name="projects"> </a>
           <ColorStream />
           <Loop />
           <HomeCooked />
