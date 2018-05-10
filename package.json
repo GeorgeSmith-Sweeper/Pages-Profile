@@ -5,14 +5,17 @@
   "homepage": "http://george-smith-sweeper.com",
   "devDependencies": {
     "gh-pages": "^0.12.0",
-    "react-scripts": "0.9.5"
+    "react-scripts": "1.1.4"
   },
   "dependencies": {
-    "materialize-css": "^0.98.0",
-    "react": "^15.4.2",
-    "react-bootstrap": "^0.30.7",
-    "react-dom": "^15.4.2",
-    "react-materialize": "^0.17.8"
+    "ajv": "^6.5.0",
+    "babel-runtime": "^6.26.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "materialize-css": "^0.100.2",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "react-materialize": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

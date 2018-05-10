@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import headShot from '../public/rsz_headshot.d9eb27a5.jpg';
+import headShot from './resources/headshot.jpg';
 import { Image } from 'react-bootstrap';
 
 class AboutMe extends Component {
   render () {
     return (
        <div className="about-me">
-        <a name="ab-me"></a>
+        <a name="ab-me"> </a>
         <div className="row">
           <div className="col s12 m4 l4">
             <Image src={headShot} alt="A photo of George-Smith-Sweeper" id="head-shot" responsive circle />
