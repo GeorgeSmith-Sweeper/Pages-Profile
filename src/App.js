@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import LandingHeader from './LandingHeader';
 import ProjectsSection from './ProjectsSection';
-import AboutMe from './AboutMe.jsx';
+import AboutMe from './AboutMe';
 import ContactInfo from './ContactInfo';
 
 class App extends Component {
