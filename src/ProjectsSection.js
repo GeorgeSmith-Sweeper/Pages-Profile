@@ -7,8 +7,7 @@ import Tails from './projects/Tails';
 import BattleShip from './projects/BattleShip';
 
 class ProjectsSection extends Component {
-
-  render () {
+  render() {
     return (
       <div className="projects">
           <a name="projects"> </a>

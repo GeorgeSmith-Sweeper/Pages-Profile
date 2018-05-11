@@ -1,5 +1,7 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
+import Battleship from '../resources/BattleShip.png';
+
 
 const BattleShip = () => {
   return (
@@ -24,14 +26,14 @@ const BattleShip = () => {
           </p>
           <p>
             <span>
-                Check out Battle Ship <a href="https://github.com/GeorgeSmith-Sweeper/Battle-Ship" className="project-links">here</a>.
+              Check out Battle Ship <a href="https://github.com/GeorgeSmith-Sweeper/Battle-Ship" className="project-links">here</a>.
             </span>
           </p>
         </div>
       </Col>
       <Col xs={12} sm={12} md={7} lg={7} className="media">
         <div className="video-container">
-
+          <Image alt="Battle Ship Game Board"src={Battleship} responsive />
         </div>
       </Col>
     </Row>
