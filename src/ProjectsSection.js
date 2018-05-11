@@ -11,8 +11,8 @@ class ProjectsSection extends Component {
     return (
       <div className="projects">
           <a name="projects"> </a>
-          <BattleShip />
           <ColorStream />
+          <BattleShip />
           <Loop />
           <HomeCooked />
           <CubeMaster />
