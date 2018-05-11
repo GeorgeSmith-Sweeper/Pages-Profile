@@ -4,6 +4,7 @@ import Loop from './projects/Loop';
 import HomeCooked from './projects/HomeCooked';
 import CubeMaster from './projects/CubeMaster';
 import Tails from './projects/Tails';
+import BattleShip from './projects/BattleShip';
 
 class ProjectsSection extends Component {
 
@@ -11,6 +12,7 @@ class ProjectsSection extends Component {
     return (
       <div className="projects">
           <a name="projects"> </a>
+          <BattleShip />
           <ColorStream />
           <Loop />
           <HomeCooked />
