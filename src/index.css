@@ -105,6 +105,10 @@ nav i {
   text-align: left;
 }
 
+#projAnchor {
+  visibility: hidden;
+}
+
 .video-container {
   position:relative;
   padding-bottom:56.25%;
