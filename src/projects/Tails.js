@@ -33,7 +33,10 @@ const Tails = () => {
             height="281"
             src="https://www.youtube.com/embed/A-LKDSz4Ik4"
             title="Tails Video"
-            frameBorder="0" alt="A presentation about web security" allowFullScreen>
+            frameBorder="0"
+            alt="A presentation about web security"
+            allowFullScreen
+          >
           </iframe>
         </div>
       </Col>

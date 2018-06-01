@@ -8,7 +8,7 @@ import BattleShip from './projects/BattleShip';
 
 const ProjectsSection = () => {
   return (
-    <div className="projects">
+    <section className="projects">
       <a name="projects" id="projAnchor"href="#projects">.</a>
       <ColorStream />
       <BattleShip />
@@ -16,7 +16,7 @@ const ProjectsSection = () => {
       <HomeCooked />
       <CubeMaster />
       <Tails />
-    </div>
+    </section>
   );
 };
 
