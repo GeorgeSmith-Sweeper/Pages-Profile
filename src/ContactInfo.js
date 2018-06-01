@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 
 const ContactInfo = () => {
   return (
-    <div className="contact-info">
+    <footer className="contact-info">
       <a name="contact"> </a>
       <Row className="social no-bottom-margin">
         <div>
@@ -29,7 +29,7 @@ const ContactInfo = () => {
           </a>
         </Col>
       </Row>
-    </div>
+    </footer>
   );
 };
 
