@@ -20,7 +20,7 @@ const Loop = () => {
             </p>
             <p>
               <span>
-                  Loop is deployed <a href="https://loop-teach.herokuapp.com" className="project-links">here</a>.
+                <a href="https://loop-teach.herokuapp.com" className="project-links">Visit Loop</a>.
               </span>
             </p>
           </div>

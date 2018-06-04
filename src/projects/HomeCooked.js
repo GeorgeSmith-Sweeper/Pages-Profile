@@ -30,7 +30,7 @@ const HomeCooked = () => {
             </p>
             <p>
               <span>
-               Home Cooked is deployed <a href="http://fridge-project.surge.sh/" className="project-links">here</a>.
+                <a href="http://fridge-project.surge.sh/" className="project-links">Visit Home Cooked</a>.
               </span>
             </p>
           </div>
