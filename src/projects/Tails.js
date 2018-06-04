@@ -22,7 +22,7 @@ const Tails = () => {
             </p>
             <p>
               <span>
-                If you enjoyed this talk, more information can be found <a href="https://tails.boum.org/" className="project-links">here</a>.
+                If you enjoyed this talk, more information can be found at <a href="https://tails.boum.org/" className="project-links">Tails home page</a>.
               </span>
             </p>
           </div>
