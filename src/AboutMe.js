@@ -17,10 +17,8 @@ const AboutMe = () => {
           <p>I love learning and teaching, and will continue to grow as a developer by listening to the feedback from others and refining my talents. I use technology everyday, and it makes sense to become part of the driving force that moves things forward, by continuing to learn everyday.
           </p>
           <p>
-            Feel free to check out my blog for a detailed look at my thoughts on building software.
-          </p>
-          <p>
-            <a href="http://georgesmith-sweeper.github.io/">The Road Through Code</a>
+            Feel free to check out my blog, <a href="http://georgesmith-sweeper.github.io/">The Road Through Code</a>,
+            for a detailed look at my thoughts on building software.
           </p>
         </div>
       </div>
