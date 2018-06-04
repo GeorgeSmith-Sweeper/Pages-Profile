@@ -27,7 +27,7 @@ const BattleShip = () => {
             </p>
             <p>
               <span>
-                Check out Battle Ship <a href="https://github.com/GeorgeSmith-Sweeper/Battle-Ship" className="project-links">here</a>.
+                <a href="https://github.com/GeorgeSmith-Sweeper/Battle-Ship" className="project-links">Battle Ship Repo</a>.
               </span>
             </p>
           </div>
