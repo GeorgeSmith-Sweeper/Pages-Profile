@@ -237,7 +237,7 @@ i {
 }
 @media (max-width: 414px) {
   #head-shot {
-    margin: 5% 0px 0px 12%;
+    margin: 5% 0px 0px 0%;
   }
   .social {
     text-align: center;
@@ -252,7 +252,7 @@ i {
 
 @media (max-width: 375px) {
   #head-shot {
-    margin: 5% 0px 0px 8%;
+    margin: 5% 0px 0px 0%;
   }
   .social {
     text-align: center;
