@@ -5,6 +5,7 @@ import HomeCooked from './projects/HomeCooked';
 import CubeMaster from './projects/CubeMaster';
 import Tails from './projects/Tails';
 import BattleShip from './projects/BattleShip';
+import TicTacToe from './projects/TicTacToe';
 
 const ProjectsSection = () => {
   return (
@@ -12,6 +13,7 @@ const ProjectsSection = () => {
       <a name="projects" id="projAnchor"href="#projects">.</a>
       <ColorStream />
       <BattleShip />
+      <TicTacToe />
       <Loop />
       <HomeCooked />
       <CubeMaster />
