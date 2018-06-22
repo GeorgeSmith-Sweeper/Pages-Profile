@@ -16,7 +16,7 @@ const TicTacToe = () => {
             </p>
             <p>
               <span>
-               I researched the Minimax and Negamax algorithms to make the AI unbeatable on a standard 3x3 game board, and created an extensive test suite to make sure that the game could handle all types of user input.
+               I researched the <a href="https://en.wikipedia.org/wiki/Minimax" title="Information about the Minimax algorithm">Minimax</a> and <a href="https://en.wikipedia.org/wiki/Negamax" title="Information about the Negamax Algorithm">Negamax</a> algorithms to make the AI unbeatable on a standard 3x3 game board, and created an extensive test suite to make sure that the game could handle all types of user input.
               </span>
             </p>
             <p>
