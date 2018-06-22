@@ -11,7 +11,12 @@ const TicTacToe = () => {
             <h3>Tic Tac Toe</h3>
             <p>
               <span>
-                Battle Ship is a command line game made entirely with Python. The goal was to emulate the classic Hasbro® game of the same name. I created a simple AI that a person could play against, two game boards to monitor the ships, and a generator to randomly place hidden ships on the boards at the start of the game. Players alternate turns until all the opponents ships have been destroyed.
+               My employer gave me the chance to learn a new language, focus on  S.O.L.I.D design, and clean code, and I jumped at the chance with Tic Tac Toe. The game seemed simple on the surface, but creating a commandline version of it with an unbeatable AI, is another thing entirely.
+               </span>
+            </p>
+            <p>
+              <span>
+                Tic Tac Toe is a command line game made entirely with Java.  I created a simple AI that a person could play against, two game boards to monitor the ships, and a generator to randomly place hidden ships on the boards at the start of the game. Players alternate turns until all the opponents ships have been destroyed.
               </span>
             </p>
             <p>
