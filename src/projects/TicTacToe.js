@@ -5,23 +5,18 @@ import TTTBoard from '../resources/TTTBoard.png';
 const TicTacToe = () => {
   return (
     <article>
-     <Row className="no-bottom-margin">
+      <Row className="no-bottom-margin">
         <Col xs={12} sm={12} md={5} lg={5} className="text-align-left">
           <div className="description">
             <h3>Tic Tac Toe</h3>
             <p>
               <span>
-               My employer gave me the chance to learn a new language, focus on  S.O.L.I.D design, and clean code, and I jumped at the chance with Tic Tac Toe. The game seemed simple on the surface, but creating a commandline version of it with an unbeatable AI, is another thing entirely.
-               </span>
-            </p>
-            <p>
-              <span>
-                Tic Tac Toe is a command line game made entirely with Java.  I created a simple AI that a person could play against, two game boards to monitor the ships, and a generator to randomly place hidden ships on the boards at the start of the game. Players alternate turns until all the opponents ships have been destroyed.
+               My employer gave me the chance to learn a new language (Java), focus on  S.O.L.I.D design, and clean code, and I jumped at the chance with Tic Tac Toe. The game seemed simple on the surface, but creating a commandline version of it with an unbeatable AI, was another thing entirely.
               </span>
             </p>
             <p>
               <span>
-                While the game may not be as feature rich as the original, it is still challenging, and offers a nerve racking race to find enemy ships.
+               I researched the Minimax and Negamax algorithms to make the AI unbeatable on a standard 3x3 game board, and created an extensive test suite to make sure that the game could handle all types of user input.
               </span>
             </p>
             <p>
@@ -42,7 +37,6 @@ const TicTacToe = () => {
           </div>
         </Col>
       </Row>
-      Hello TicTacToe
     </article>
   );
 };
