@@ -7,30 +7,6 @@ a:focus, a:hover {
   color: #cccccc;
 }
 
-/* handles all styles in the navbar */
-/*****************************************************************/
-nav {
-  background: #666666;
-  font-family: 'Lobster', cursive;
-  list-style: none;
-  border: none;
-}
-nav .brand-logo {
-  padding-left: 15px;
-  font-size: 20px;
-  color: #FFFFFF;
-}
-nav ul a {
-  color: #FFFFFF;
-}
-
-nav i {
-  color: #FFFFFF
-}
-
-/*****************************************************************/
-
-
 /* handles all styles in the landing section */
 /*****************************************************************/
 .landing {
@@ -263,10 +239,6 @@ i {
   .about-me p {
     text-align: center;
   }
-
-  nav .brand-logo {
-    padding-left: 35px;
-  }
 }
 
 @media (max-width: 320px) {
@@ -281,9 +253,5 @@ i {
   }
   .about-me p {
     text-align: center;
-  }
-
-  nav .brand-logo {
-    padding-left: 35px;
   }
 }
