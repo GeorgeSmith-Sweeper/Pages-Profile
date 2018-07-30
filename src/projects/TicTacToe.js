@@ -26,7 +26,7 @@ const TicTacToe = () => {
             </p>
             <p>
               <span>
-                <a href="https://github.com/GeorgeSmith-Sweeper/Battle-Ship" className="project-links">Tic Tac Toe Repo</a>.
+                <a href="https://github.com/GeorgeSmith-Sweeper/JavaTTT" className="project-links">Tic Tac Toe Repo</a>.
               </span>
             </p>
           </div>
