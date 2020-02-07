@@ -34,7 +34,7 @@ const ColorStream = () => {
         </Col>
         <Col xs={12} sm={12} md={7} lg={7} className="media">
           <div className="video-container">
-            <a href="http://colorstream.co">
+            <a href="http://colorstream.design">
               <Image alt="colorstream's homepage" src={Colorstream} responsive />
             </a>
           </div>
