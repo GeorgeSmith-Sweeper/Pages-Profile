@@ -27,7 +27,7 @@ const ColorStream = () => {
             </p>
             <p>
               <span>
-                <a href="http://colorstream.co" className="project-links">Visit Color Stream</a>.
+                <a href="http://colorstream.design" className="project-links">Visit Color Stream</a>.
               </span>
             </p>
           </div>
