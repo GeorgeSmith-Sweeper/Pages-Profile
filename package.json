@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://george-smith-sweeper.com",
   "devDependencies": {
-    "ajv": "^6.5.0",
+    "ajv": "^6.12.3",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
