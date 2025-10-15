@@ -4,8 +4,7 @@ import headShot from './resources/headshot.jpg';
 
 const AboutMe = () => {
   return (
-    <div className="about-me">
-      <a name="ab-me"> </a>
+    <div className="about-me" id="ab-me">
       <Row>
         <Col xs={12} md={4}>
           <Image src={headShot} alt="A photo of George-Smith-Sweeper" id="head-shot" fluid roundedCircle />

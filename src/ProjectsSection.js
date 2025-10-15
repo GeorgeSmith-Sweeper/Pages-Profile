@@ -9,8 +9,7 @@ import TicTacToe from './projects/TicTacToe';
 
 const ProjectsSection = () => {
   return (
-    <section className="projects">
-      <a name="projects" id="projAnchor"href="#projects">.</a>
+    <section className="projects" id="projects">
       <ColorStream />
       <BattleShip />
       <TicTacToe />
