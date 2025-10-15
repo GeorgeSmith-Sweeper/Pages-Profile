@@ -34,7 +34,7 @@ const BattleShip = () => {
         </Col>
         <Col xs={12} sm={12} md={7} lg={7} className="media">
           <div className="video-container">
-            <Image alt="Battle Ship Game Board"src={Battleship} responsive />
+            <Image alt="Battle Ship Game Board" src={Battleship} fluid />
           </div>
         </Col>
       </Row>

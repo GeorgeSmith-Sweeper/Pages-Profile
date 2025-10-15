@@ -33,7 +33,7 @@ const TicTacToe = () => {
         </Col>
         <Col xs={12} sm={12} md={7} lg={7} className="media">
           <div className="video-container">
-            <Image alt="Black and white tic tac toe board"src={TTTBoard} responsive />
+            <Image alt="Black and white tic tac toe board" src={TTTBoard} fluid />
           </div>
         </Col>
       </Row>

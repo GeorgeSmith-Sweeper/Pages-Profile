@@ -8,7 +8,7 @@ const AboutMe = () => {
       <a name="ab-me"> </a>
       <Row>
         <Col xs={12} md={4}>
-          <Image src={headShot} alt="A photo of George-Smith-Sweeper" id="head-shot" responsive circle />
+          <Image src={headShot} alt="A photo of George-Smith-Sweeper" id="head-shot" fluid roundedCircle />
         </Col>
         <Col xs={12} md={8}>
           <h2>George Smith-Sweeper</h2>
