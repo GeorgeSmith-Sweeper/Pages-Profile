@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-
+import { FaGithubSquare, FaLinkedin, FaAngellist, FaEnvelope } from 'react-icons/fa';
 
 const ContactInfo = () => {
   return (
@@ -12,20 +12,22 @@ const ContactInfo = () => {
         </div>
         <Col xs={3} sm={3} md={3} lg={3}>
           <a href="https://github.com/GeorgeSmith-Sweeper">
-            <i id="github" className="fa fa-github-square" aria-hidden="true" />
+            <FaGithubSquare id="github" aria-hidden="true" />
           </a>
         </Col>
         <Col xs={3} sm={3} md={3} lg={3}>
           <a href="https://www.linkedin.com/in/george-smith-sweeper-087b753a">
-            <i id="linkedin" className="fa fa-linkedin" aria-hidden="true" />
+            <FaLinkedin id="linkedin" aria-hidden="true" />
           </a>
         </Col>
         <Col xs={3} sm={3} md={3} lg={3}>
-          <a href="https://angel.co/george-smith-sweeper"><i id="angellist" className="fa fa-angellist" aria-hidden="true" /> </a>
+          <a href="https://angel.co/george-smith-sweeper">
+            <FaAngellist id="angellist" aria-hidden="true" />
+          </a>
         </Col>
         <Col xs={3} sm={3} md={3} lg={3}>
           <a href="mailto:george.smsweeper@gmail.com">
-            <i id="mail" className="fa fa-envelope" aria-hidden="true" />
+            <FaEnvelope id="mail" aria-hidden="true" />
           </a>
         </Col>
       </Row>
