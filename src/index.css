@@ -181,6 +181,10 @@ a:focus {
   border-radius: 6px;
   transition: all var(--transition-fast);
   text-decoration: none;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .navigation .nav-link:hover {
@@ -273,6 +277,10 @@ a:focus {
   transition: all var(--transition-fast);
   border: 2px solid;
   font-size: var(--font-size-lg);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cta-primary {
@@ -495,6 +503,110 @@ a:focus {
 
   .projects span {
     font-size: 25px;
+  }
+}
+
+/* Tablet adjustments */
+@media (max-width: 992px) {
+  :root {
+    --font-size-h1: 48px;
+    --font-size-h2: 36px;
+    --font-size-h3: 28px;
+    --font-size-h4: 24px;
+  }
+
+  .landing {
+    background-attachment: scroll;
+    padding: var(--spacing-md);
+  }
+
+  .navigation .nav-link {
+    padding: var(--spacing-sm) var(--spacing-md);
+    margin: var(--spacing-xs) 0;
+  }
+
+  .projects article {
+    padding: var(--spacing-md);
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  :root {
+    --font-size-base: 16px;
+    --font-size-h1: 40px;
+    --font-size-h2: 32px;
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --spacing-xl: 48px;
+    --spacing-2xl: 64px;
+  }
+
+  .landing {
+    min-height: 100vh;
+    padding: var(--spacing-md) var(--spacing-sm);
+  }
+
+  .landing .tagline {
+    font-size: 18px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+    max-width: 300px;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  section {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .about-me h2,
+  .projects h2 {
+    font-size: var(--font-size-h2);
+  }
+
+  .projects article {
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .social h5 {
+    font-size: var(--font-size-h3);
+  }
+
+  .social-icons a {
+    font-size: 2.5rem;
+  }
+}
+
+/* Small mobile adjustments */
+@media (max-width: 480px) {
+  :root {
+    --font-size-h1: 32px;
+    --font-size-h2: 28px;
+    --font-size-h3: 22px;
+  }
+
+  .brand-name {
+    font-size: 24px;
+  }
+
+  .landing .tagline {
+    font-size: 16px;
+  }
+
+  .social-icons {
+    gap: var(--spacing-md);
+  }
+
+  .social-icons a {
+    font-size: 2rem;
   }
 }
 
