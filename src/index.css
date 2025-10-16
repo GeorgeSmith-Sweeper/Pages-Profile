@@ -1,12 +1,31 @@
 :root {
+  /* Base colors */
   --color-white: #FFFFFF;
-  --color-black: #000000;
-  --color-gray-light: #cccccc;
-  --color-gray-medium: #666666;
-  --color-github: #CCCC99;
-  --color-linkedin: #0177B5;
-  --color-angellist: #ED780E;
-  --color-mail: #88D8B0;
+  --color-black: #1a1a1a;
+  --color-text: #2d3748;
+
+  /* Brand colors */
+  --color-primary: #2563eb;
+  --color-primary-dark: #1e40af;
+  --color-primary-light: #60a5fa;
+
+  --color-secondary: #8b5cf6;
+  --color-accent: #06b6d4;
+
+  /* Neutral colors */
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+
+  /* Social media brand colors */
+  --color-github: #333333;
+  --color-linkedin: #0077b5;
+  --color-angellist: #000000;
+  --color-mail: #ea4335;
 
   --font-primary: 'Raleway', sans-serif;
   --font-heading: 'Lobster', cursive;
@@ -45,7 +64,7 @@ body {
   font-family: var(--font-primary);
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
-  color: var(--color-black);
+  color: var(--color-text);
   margin: 0;
   padding: 0;
 }
@@ -83,10 +102,20 @@ section {
   padding: var(--spacing-xl) 0;
 }
 
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: var(--color-gray-light);
+a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: all var(--transition-fast);
+  font-weight: 500;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-secondary);
+  text-decoration-color: var(--color-secondary);
+  transform: translateY(-1px);
 }
 
 /* Landing section */
@@ -127,6 +156,7 @@ a:hover {
 .about-me h2 {
   text-align: left;
   margin-bottom: var(--spacing-lg);
+  color: var(--color-primary);
 }
 
 .divider {
@@ -146,7 +176,11 @@ a:hover {
 /* Projects section */
 .projects {
   padding: var(--spacing-2xl) var(--spacing-lg);
-  background-color: #f8f9fa;
+  background-color: var(--color-gray-50);
+}
+
+.projects h2 {
+  color: var(--color-primary);
 }
 
 .projects .row {
@@ -197,54 +231,52 @@ a:hover {
   margin-top: 0;
 }
 
-/* Social media icons */
-.social {
-  font-size: 3em;
-  overflow: hidden;
-  background-color: var(--color-gray-medium);
+/* Social media footer */
+.contact-info {
+  background: linear-gradient(135deg, var(--color-gray-800) 0%, var(--color-gray-700) 100%);
+  padding: var(--spacing-xl) 0;
 }
 
-.social a {
-  text-decoration: none;
+.social {
+  text-align: center;
+}
+
+.social h5 {
+  font-family: var(--font-heading);
   color: var(--color-white);
-  overflow: hidden;
+  margin-bottom: var(--spacing-lg);
+  font-size: var(--font-size-h3);
+}
+
+.social-icons {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: var(--spacing-lg);
 }
 
-.social svg {
-  margin: 0.5em;
-  transition: transform var(--transition-slow);
+.social-icons a {
+  color: var(--color-white);
+  font-size: 3rem;
+  transition: all var(--transition-fast);
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.social-icons a:hover {
+  text-decoration: none;
+  transform: scale(1.2) translateY(-8px);
 }
 
 #github:hover {
-  color: var(--color-github);
-  transition: color var(--transition-fast);
-  transform: scale(1.5);
+  color: var(--color-white);
 }
 
 #linkedin:hover {
   color: var(--color-linkedin);
-  transition: color var(--transition-fast);
-  transform: scale(1.5);
-}
-
-#angellist:hover {
-  color: var(--color-angellist);
-  transition: color var(--transition-fast);
-  transform: scale(1.5);
 }
 
 #mail:hover {
   color: var(--color-mail);
-  transition: color var(--transition-fast);
-  transform: scale(1.5);
-}
-
-.contact-info h5 {
-  text-align: center;
-  font-family: var(--font-heading);
-  color: var(--color-white);
 }
 
 /* Media Queries */
