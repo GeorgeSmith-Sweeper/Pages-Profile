@@ -11,12 +11,76 @@
   --font-primary: 'Raleway', sans-serif;
   --font-heading: 'Lobster', cursive;
 
+  /* Typography scale */
+  --font-size-base: 18px;
+  --font-size-sm: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-h1: 64px;
+  --font-size-h2: 48px;
+  --font-size-h3: 36px;
+  --font-size-h4: 28px;
+
+  --line-height-base: 1.6;
+  --line-height-heading: 1.2;
+
+  /* Spacing scale */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 48px;
+  --spacing-xl: 64px;
+  --spacing-2xl: 96px;
+
   --transition-fast: 300ms ease;
   --transition-slow: 1.5s ease-in-out;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--color-black);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  line-height: var(--line-height-heading);
+  margin-top: 0;
+  margin-bottom: var(--spacing-md);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--spacing-md);
+}
+
+section {
+  padding: var(--spacing-xl) 0;
 }
 
 a:focus,
@@ -28,30 +92,41 @@ a:hover {
 /* Landing section */
 .landing {
   display: flex;
-  min-height: 800px;
+  min-height: 100vh;
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-image: url('./resources/CityShot.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./resources/CityShot.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  color: var(--color-white);
+  padding: var(--spacing-xl);
+}
+
+.landing h1 {
+  margin-bottom: var(--spacing-sm);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.landing .tagline {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.95;
 }
 
 /* About me section */
 .about-me {
-  font-family: var(--font-primary);
-  color: var(--color-black);
+  padding: var(--spacing-2xl) var(--spacing-lg);
 }
 
 .about-me p {
-  font-size: 17px;
   text-align: left;
-  font-family: var(--font-primary);
 }
 
 .about-me h2 {
-  font-family: var(--font-heading);
   text-align: left;
+  margin-bottom: var(--spacing-lg);
 }
 
 .divider {
@@ -70,22 +145,25 @@ a:hover {
 
 /* Projects section */
 .projects {
-  text-align: center;
-  color: var(--color-black);
+  padding: var(--spacing-2xl) var(--spacing-lg);
+  background-color: #f8f9fa;
 }
 
 .projects .row {
-  padding-bottom: 37px;
+  padding-bottom: var(--spacing-lg);
 }
 
 .projects span {
-  font-family: var(--font-primary);
-  font-size: 17px;
+  font-size: var(--font-size-base);
 }
 
 .projects h3 {
-  font-family: var(--font-heading);
   text-align: left;
+  margin-bottom: var(--spacing-md);
+}
+
+.projects article {
+  margin-bottom: var(--spacing-xl);
 }
 
 .video-container {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import ColorStream from './projects/ColorStream';
 import Loop from './projects/Loop';
 import HomeCooked from './projects/HomeCooked';
@@ -10,13 +11,16 @@ import TicTacToe from './projects/TicTacToe';
 const ProjectsSection = () => {
   return (
     <section className="projects" id="projects">
-      <ColorStream />
-      <BattleShip />
-      <TicTacToe />
-      <Loop />
-      <HomeCooked />
-      <CubeMaster />
-      <Tails />
+      <Container>
+        <h2 className="text-center mb-5">Projects</h2>
+        <ColorStream />
+        <BattleShip />
+        <TicTacToe />
+        <Loop />
+        <HomeCooked />
+        <CubeMaster />
+        <Tails />
+      </Container>
     </section>
   );
 };
