@@ -118,6 +118,65 @@ a:focus {
   transform: translateY(-1px);
 }
 
+/* Navigation */
+.navigation {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-bottom: 1px solid var(--color-gray-200);
+  padding: var(--spacing-sm) 0;
+  transition: all var(--transition-fast);
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid var(--color-gray-300);
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(45, 55, 72, 0.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.brand-name {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h4);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.navigation .nav-link {
+  color: var(--color-text);
+  font-weight: 500;
+  padding: var(--spacing-xs) var(--spacing-md);
+  margin: 0 var(--spacing-xs);
+  border-radius: 6px;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.navigation .nav-link:hover {
+  color: var(--color-primary);
+  background-color: var(--color-gray-50);
+  transform: none;
+}
+
 /* Landing section */
 .landing {
   display: flex;
@@ -140,8 +199,53 @@ a:focus {
 
 .landing .tagline {
   font-size: var(--font-size-xl);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
   opacity: 0.95;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: var(--spacing-lg);
+}
+
+.cta-primary,
+.cta-secondary {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all var(--transition-fast);
+  border: 2px solid;
+  font-size: var(--font-size-lg);
+}
+
+.cta-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.cta-primary:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+}
+
+.cta-secondary {
+  background-color: transparent;
+  border-color: var(--color-white);
+  color: var(--color-white);
+}
+
+.cta-secondary:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+  color: var(--color-primary);
+  transform: translateY(-2px);
 }
 
 /* About me section */
@@ -179,16 +283,6 @@ a:focus {
   border-radius: 2px;
 }
 
-#head-shot {
-  max-width: 280px;
-  margin: 0 auto;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  transition: transform var(--transition-fast);
-}
-
-#head-shot:hover {
-  transform: scale(1.05);
-}
 
 /* Projects section */
 .projects {
@@ -329,10 +423,6 @@ a:focus {
 
 /* Media Queries */
 @media (min-width: 1290px) {
-  #head-shot {
-    margin: 4vw 0 0 6.5vw;
-  }
-
   .about-me p {
     font-size: 25px;
   }
@@ -342,61 +432,7 @@ a:focus {
   }
 }
 
-@media (max-width: 1024px) {
-  #head-shot {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
-
-@media (max-width: 800px) {
-  #head-shot {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
-
 @media (max-width: 596px) {
-  #head-shot {
-    margin: 5% 0 0 12%;
-  }
-
-  .social,
-  .about-me h3,
-  .about-me p {
-    text-align: center;
-  }
-}
-
-@media (max-width: 414px) {
-  #head-shot {
-    margin: 5% 0 0 0;
-  }
-
-  .social,
-  .about-me h3,
-  .about-me p {
-    text-align: center;
-  }
-}
-
-@media (max-width: 375px) {
-  #head-shot {
-    margin: 5% 0 0 0;
-  }
-
-  .social,
-  .about-me h3,
-  .about-me p {
-    text-align: center;
-  }
-}
-
-@media (max-width: 320px) {
-  #head-shot {
-    margin: 1% 0 0 1%;
-  }
-
   .social,
   .about-me h3,
   .about-me p {
