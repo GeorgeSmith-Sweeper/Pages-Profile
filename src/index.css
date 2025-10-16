@@ -1,44 +1,56 @@
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-gray-light: #cccccc;
+  --color-gray-medium: #666666;
+  --color-github: #CCCC99;
+  --color-linkedin: #0177B5;
+  --color-angellist: #ED780E;
+  --color-mail: #88D8B0;
+
+  --font-primary: 'Raleway', sans-serif;
+  --font-heading: 'Lobster', cursive;
+
+  --transition-fast: 300ms ease;
+  --transition-slow: 1.5s ease-in-out;
+}
+
 body {
-  background-color: #FFFFFF;
+  background-color: var(--color-white);
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
   text-decoration: none;
-  color: #cccccc;
+  color: var(--color-gray-light);
 }
 
-/* handles all styles in the landing section */
-/*****************************************************************/
+/* Landing section */
 .landing {
   display: flex;
   min-height: 800px;
   text-align: center;
   justify-content: center;
   align-items: center;
-
-  /* uncomment if using an image*/
   background-image: url('./resources/CityShot.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/*****************************************************************/
-
-/* handles all styles in the about me section*/
-/*****************************************************************/
+/* About me section */
 .about-me {
-  font-family: 'Raleway', sans-serif;
-  color: #000000;
+  font-family: var(--font-primary);
+  color: var(--color-black);
 }
 
 .about-me p {
   font-size: 17px;
   text-align: left;
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font-primary);
 }
 
 .about-me h2 {
-  font-family: 'Lobster', cursive;
+  font-family: var(--font-heading);
   text-align: left;
 }
 
@@ -56,15 +68,10 @@ a:focus, a:hover {
   margin-bottom: 1%;
 }
 
-/***********************************************************************/
-
-
-/* handles all styles in the projects section */
-/*****************************************************************/
-
+/* Projects section */
 .projects {
   text-align: center;
-  color: #000000;
+  color: var(--color-black);
 }
 
 .projects .row {
@@ -72,36 +79,32 @@ a:focus, a:hover {
 }
 
 .projects span {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font-primary);
   font-size: 17px;
 }
 
 .projects h3 {
-  font-family: 'Lobster', cursive;
+  font-family: var(--font-heading);
   text-align: left;
 }
 
-#projAnchor {
-  visibility: hidden;
-}
-
 .video-container {
-  position:relative;
-  padding-bottom:56.25%;
-  padding-top:30px;
-  height:0;
-  overflow:hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 .video-container iframe,
 .video-container object,
 .video-container embed,
 .video-container img {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .text-align-left {
@@ -115,74 +118,72 @@ a:focus, a:hover {
 .media {
   margin-top: 0;
 }
-/*****************************************************************/
 
-
-
-/* handles all styles in the social media icons */
-/*****************************************************************/
+/* Social media icons */
 .social {
-  font-size: 3.0em;
+  font-size: 3em;
   overflow: hidden;
-  background-color: #666666;
+  background-color: var(--color-gray-medium);
 }
 
 .social a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: var(--color-white);
   overflow: hidden;
   display: flex;
   justify-content: center;
 }
 
-i {
-  margin: .5em;
-  transition: transform 1.5s ease-in-out;
+.social svg {
+  margin: 0.5em;
+  transition: transform var(--transition-slow);
 }
 
 #github:hover {
-  color: #CCCC99;
-  transition: color 300ms ease;
-  transform: scale(1.5,1.5);
+  color: var(--color-github);
+  transition: color var(--transition-fast);
+  transform: scale(1.5);
 }
 
 #linkedin:hover {
-  color: #0177B5;
-  transition: color 300ms ease;
-  transform: scale(1.5,1.5);
+  color: var(--color-linkedin);
+  transition: color var(--transition-fast);
+  transform: scale(1.5);
 }
 
 #angellist:hover {
-  color: #ED780E;
-  transition: color 300ms ease;
-  transform: scale(1.5,1.5);
+  color: var(--color-angellist);
+  transition: color var(--transition-fast);
+  transform: scale(1.5);
 }
 
 #mail:hover {
-  color: #88D8B0;
-  transition: color 300ms ease;
-  transform: scale(1.5,1.5);
+  color: var(--color-mail);
+  transition: color var(--transition-fast);
+  transform: scale(1.5);
 }
 
 .contact-info h5 {
   text-align: center;
-  font-family: 'Lobster', cursive;
-  color: #FFFFFF;
+  font-family: var(--font-heading);
+  color: var(--color-white);
 }
-/* Media Queries*/
-/*****************************************************************/
 
+/* Media Queries */
 @media (min-width: 1290px) {
   #head-shot {
     margin: 4vw 0 0 6.5vw;
   }
+
   .about-me p {
     font-size: 25px;
   }
+
   .projects span {
     font-size: 25px;
   }
 }
+
 @media (max-width: 1024px) {
   #head-shot {
     padding-top: 10px;
@@ -201,26 +202,21 @@ i {
   #head-shot {
     margin: 5% 0 0 12%;
   }
-  .social {
-    text-align: center;
-  }
-  .about-me h3 {
-    text-align: center;
-  }
+
+  .social,
+  .about-me h3,
   .about-me p {
     text-align: center;
   }
 }
+
 @media (max-width: 414px) {
   #head-shot {
-    margin: 5% 0px 0px 0%;
+    margin: 5% 0 0 0;
   }
-  .social {
-    text-align: center;
-  }
-  .about-me h3 {
-    text-align: center;
-  }
+
+  .social,
+  .about-me h3,
   .about-me p {
     text-align: center;
   }
@@ -228,14 +224,11 @@ i {
 
 @media (max-width: 375px) {
   #head-shot {
-    margin: 5% 0px 0px 0%;
+    margin: 5% 0 0 0;
   }
-  .social {
-    text-align: center;
-  }
-  .about-me h3 {
-    text-align: center;
-  }
+
+  .social,
+  .about-me h3,
   .about-me p {
     text-align: center;
   }
@@ -243,14 +236,11 @@ i {
 
 @media (max-width: 320px) {
   #head-shot {
-    margin: 1% 0px 0px 1%;
+    margin: 1% 0 0 1%;
   }
-  .social {
-    text-align: center;
-  }
-  .about-me h3 {
-    text-align: center;
-  }
+
+  .social,
+  .about-me h3,
   .about-me p {
     text-align: center;
   }
