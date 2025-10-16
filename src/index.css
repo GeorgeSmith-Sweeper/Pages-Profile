@@ -100,6 +100,18 @@ p {
 
 section {
   padding: var(--spacing-xl) 0;
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 a {
@@ -188,19 +200,60 @@ a:focus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   color: var(--color-white);
   padding: var(--spacing-xl);
+  position: relative;
+  animation: none;
+}
+
+.landing::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+  animation: pulse 8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.landing .container {
+  position: relative;
+  z-index: 1;
 }
 
 .landing h1 {
   margin-bottom: var(--spacing-sm);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  animation: slideInDown 1s ease-out;
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .landing .tagline {
   font-size: var(--font-size-xl);
   margin-bottom: var(--spacing-xl);
   opacity: 0.95;
+  animation: fadeIn 1.2s ease-out 0.3s both;
 }
 
 .cta-buttons {
@@ -209,6 +262,7 @@ a:focus {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: var(--spacing-lg);
+  animation: fadeIn 1.4s ease-out 0.6s both;
 }
 
 .cta-primary,
@@ -402,11 +456,23 @@ a:focus {
   font-size: 3rem;
   transition: all var(--transition-fast);
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+  display: inline-block;
 }
 
 .social-icons a:hover {
   text-decoration: none;
   transform: scale(1.2) translateY(-8px);
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4));
+  animation: bounce 0.6s ease;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(1.2) translateY(-8px);
+  }
+  50% {
+    transform: scale(1.25) translateY(-12px);
+  }
 }
 
 #github:hover {
