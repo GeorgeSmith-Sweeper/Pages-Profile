@@ -5,6 +5,11 @@
     "jasmine": true
   },
   "rules": {
-    "react/jsx-filename-extension": [1, {"extensions": [".js"]}]
+    "react/jsx-filename-extension": [1, {"extensions": [".js"]}],
+    "react/function-component-definition": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "max-len": "off",
+    "comma-dangle": "off",
+    "react/no-array-index-key": "off"
   }
 }
