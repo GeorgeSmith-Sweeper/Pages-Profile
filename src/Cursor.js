@@ -15,9 +15,12 @@ const Cursor = () => {
     let cy = 0;
     let frame = 0;
 
+    const parallaxMq = window.matchMedia('(min-width: 961px) and (hover: hover)');
+
     const onMouseMove = (e) => {
       mx = e.clientX;
       my = e.clientY;
+      if (!parallaxMq.matches) return;
       const dx = (e.clientX / window.innerWidth - 0.5) * 12;
       const dy = (e.clientY / window.innerHeight - 0.5) * 8;
       const heroName = document.querySelector('.hero-name');
