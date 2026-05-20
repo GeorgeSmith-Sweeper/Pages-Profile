@@ -12,7 +12,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; font-size: 19px; }
 
 body {
   background: var(--cream);
@@ -91,7 +91,7 @@ nav {
 }
 .hero-name {
   font-family: var(--ff-head);
-  font-size: clamp(72px, 9vw, 140px);
+  font-size: clamp(86px, 10.7vw, 166px);
   line-height: 0.92;
   letter-spacing: 0.01em;
   text-transform: uppercase;
@@ -214,7 +214,7 @@ nav {
   transition: color 0.15s;
 }
 .what-card-title {
-  font-family: var(--ff-head); font-size: clamp(28px, 3.5vw, 52px);
+  font-family: var(--ff-head); font-size: clamp(33px, 4.16vw, 62px);
   line-height: 1; text-transform: uppercase; letter-spacing: 0.02em;
   margin-bottom: 1.2rem;
 }
@@ -239,7 +239,7 @@ nav {
 }
 .career-big-title {
   font-family: var(--ff-head);
-  font-size: clamp(64px, 10vw, 160px);
+  font-size: clamp(76px, 11.88vw, 190px);
   line-height: 0.9; text-transform: uppercase; letter-spacing: 0.01em;
 }
 .career-header-right {
@@ -287,7 +287,7 @@ nav {
 }
 .tl-row:hover .tl-content { background: rgba(0,0,0,0.03); }
 .tl-role {
-  font-family: var(--ff-head); font-size: clamp(22px, 3vw, 42px);
+  font-family: var(--ff-head); font-size: clamp(27px, 3.56vw, 49px);
   line-height: 1; text-transform: uppercase; letter-spacing: 0.02em; margin-bottom: 0.4rem;
 }
 .tl-company {
@@ -304,7 +304,7 @@ nav {
 }
 .garage-big {
   font-family: var(--ff-head);
-  font-size: clamp(80px, 14vw, 200px);
+  font-size: clamp(95px, 16.63vw, 238px);
   line-height: 0.88; text-transform: uppercase; letter-spacing: 0.01em;
 }
 .garage-banner-right {
@@ -337,7 +337,7 @@ nav {
   color: var(--muted); margin-bottom: 2rem; transition: color 0.15s;
 }
 .garage-card-title {
-  font-family: var(--ff-head); font-size: clamp(22px, 3vw, 40px);
+  font-family: var(--ff-head); font-size: clamp(27px, 3.56vw, 48px);
   text-transform: uppercase; letter-spacing: 0.02em; margin-bottom: 1rem;
 }
 .garage-card-body {
@@ -357,7 +357,7 @@ nav {
 .speedo-svg.spin-ccw { animation: spin 7s linear infinite reverse; margin-left: -40px; }
 .speedo-text {
   font-family: var(--ff-head);
-  font-size: clamp(36px, 6vw, 80px);
+  font-size: clamp(43px, 7.13vw, 95px);
   text-transform: uppercase; letter-spacing: 0.04em;
   line-height: 1; color: rgba(0,0,0,0.08);
   white-space: nowrap;
@@ -390,7 +390,7 @@ nav {
 }
 .now-title {
   font-family: var(--ff-head);
-  font-size: clamp(64px, 10vw, 160px);
+  font-size: clamp(76px, 11.88vw, 190px);
   line-height: 0.88; text-transform: uppercase; letter-spacing: 0.01em;
 }
 .now-title .red { color: var(--accent); }
@@ -427,7 +427,7 @@ nav {
 .now-card-status .label { color: rgba(255,255,255,0.6); }
 
 .now-card-title {
-  font-family: var(--ff-head); font-size: clamp(36px, 5vw, 72px);
+  font-family: var(--ff-head); font-size: clamp(43px, 5.94vw, 86px);
   line-height: 0.95; text-transform: uppercase; letter-spacing: 0.02em;
   margin-bottom: 1.2rem;
   position: relative;
@@ -466,7 +466,7 @@ nav {
 .now-card-decoration {
   position: absolute; right: -40px; top: 50%; transform: translateY(-50%);
   font-family: var(--ff-head);
-  font-size: clamp(140px, 22vw, 320px);
+  font-size: clamp(166px, 26.13vw, 380px);
   line-height: 0.85;
   color: rgba(255,255,255,0.04);
   text-transform: uppercase;
@@ -491,7 +491,7 @@ nav {
 }
 .phil-giant {
   font-family: var(--ff-head);
-  font-size: clamp(44px, 6vw, 90px);
+  font-size: clamp(52px, 7.13vw, 106px);
   line-height: 1; text-transform: uppercase;
 }
 .phil-giant .red { color: var(--accent); }
@@ -531,7 +531,7 @@ nav {
 }
 .connect-title {
   font-family: var(--ff-head);
-  font-size: clamp(80px, 14vw, 200px);
+  font-size: clamp(95px, 16.63vw, 238px);
   line-height: 0.88; text-transform: uppercase;
 }
 .connect-title .red { color: var(--accent); }
