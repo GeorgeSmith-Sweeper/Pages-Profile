@@ -9,8 +9,9 @@ const ROLES = [
   },
   {
     year: '2018–2025',
-    role: <>Technical Solutions Eng<br />→ Manager → Director</>,
+    role: 'Director',
     company: 'Datadog',
+    progression: 'From Technical Solutions Eng → Manager → Director',
     desc: 'Progressed from Technical Solutions Engineer to Senior Manager to Director, overseeing global technical support across 750+ integrations. Built incident response processes, knowledge bases, and mentored multiple layers of managers and engineers.',
   },
   {
@@ -54,6 +55,7 @@ const Career = () => (
           <div className="tl-content">
             <div className="tl-role">{r.role}</div>
             <div className="tl-company">{r.company}</div>
+            {r.progression && <div className="tl-progression">{r.progression}</div>}
             <p className="tl-desc">{r.desc}</p>
           </div>
         </div>

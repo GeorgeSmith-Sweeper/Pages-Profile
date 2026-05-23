@@ -367,6 +367,11 @@ body.menu-open .mobile-nav { transform: translateY(0); }
   font-family: var(--ff-mono); font-size: 0.72rem; color: var(--accent);
   letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.8rem;
 }
+.tl-progression {
+  font-family: var(--ff-mono); font-size: 0.68rem; color: var(--muted);
+  letter-spacing: 0.1em; text-transform: uppercase; line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
 .tl-desc { font-size: 0.85rem; color: var(--mid); line-height: 1.65; font-weight: 300; }
 
 /* ── GARAGE ── */
