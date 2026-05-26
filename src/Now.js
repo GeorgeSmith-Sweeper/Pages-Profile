@@ -11,7 +11,7 @@ const PROJECTS = [
     body: 'A 19th-century warehouse, brought back to life one beam, brick, and detail at a time. Equal parts research project, construction site, and labor of love — preserving the bones while making it livable for the next century.',
     image: warehouseImg,
     bgPos: 'center 35%',
-    imageLabel: 'Live Site',
+    imageLabel: 'On Site',
     imageFrame: '01 — Facade',
     mirror: false,
     stats: [
