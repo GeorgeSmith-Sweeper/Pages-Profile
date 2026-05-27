@@ -1,8 +1,10 @@
 {
+  "root": true,
   "extends": ["airbnb", "plugin:react/recommended"],
   "env": {
     "browser": true,
-    "jasmine": true
+    "jasmine": true,
+    "es2021": true
   },
   "rules": {
     "react/jsx-filename-extension": [1, {"extensions": [".js"]}],

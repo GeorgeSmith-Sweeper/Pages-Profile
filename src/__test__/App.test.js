@@ -1,9 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { act } from 'react';
+import { createRoot } from 'react-dom/client';
 import App from '../App';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  const container = document.createElement('div');
+  const root = createRoot(container);
+  act(() => root.render(<App />));
+  act(() => root.unmount());
 });
-
